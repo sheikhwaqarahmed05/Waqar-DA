@@ -1,0 +1,20 @@
+GIT ( Distributive Version Control System )
+
+1) Go to git-scm.com to download and install git
+2) Initialize git in your project using
+	$git init
+3) To find status of your repo use
+	$git status
+4) To add your and track your files use
+	$git add -A
+5) To configure your git use
+	$git config --global user.name "<Your Name>"
+	$git config --global user.email "<Your Email>"
+6) To store your files in git use:
+	$git commit -m "<Your Message>"
+7) Goto github.com and signup your profile inorder to create account
+8) Create new repo on github.com
+9) Connect your local repo with the remote repo use:
+	$git remote add origin <Link>
+10) Push your code from local to remote use:
+	$git push -u origin master
